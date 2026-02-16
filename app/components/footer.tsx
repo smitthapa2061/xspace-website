@@ -14,8 +14,8 @@ export default function Footer() {
         <footer id="contact" className="relative bg-[#020202] border-t border-white/5 pt-20 pb-10 overflow-hidden">
 
             {/* Background Glow */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-1 bg-linear-to-r from-transparent via-purple-500 to-transparent opacity-50 blur-sm"></div>
-            <div className="absolute top-[10%] left-[20%] w-72 h-72 bg-purple-900/10 rounded-full blur-[100px] pointer-events-none"></div>
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-1 bg-gradient-to-r from-transparent via-cyan-500 to-transparent opacity-50 blur-sm"></div>
+            <div className="absolute top-[10%] left-[20%] w-72 h-72 bg-cyan-900/10 rounded-full blur-[100px] pointer-events-none"></div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="grid md:grid-cols-2 gap-12 mb-16 items-start">
@@ -25,15 +25,15 @@ export default function Footer() {
                         <Link href="/" className="inline-flex items-center gap-3 group">
                             <div className="relative w-12 h-12 transition-transform group-hover:scale-110 duration-300">
                                 <Image
-                                    src="/fusion_yolenl.png"
-                                    alt="Fusion Esports Logo"
+                                    src="/XSPACELOGO.png"
+                                    alt="XSPACE AGENCY Logo"
                                     fill
                                     className="object-contain"
                                 />
                             </div>
                             <div className="flex flex-col">
-                                <span className="font-black text-xl text-white tracking-tighter italic">FUSION</span>
-                                <span className="text-xs font-bold text-yellow-500 tracking-[0.2em]">ESPORTS</span>
+                                <span className="font-black text-xl text-white tracking-tight">XSPACE</span>
+                                <span className="text-xs font-bold text-cyan-500 tracking-[0.2em]">AGENCY</span>
                             </div>
                         </Link>
                         <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
@@ -60,7 +60,7 @@ export default function Footer() {
 
                             {/* WhatsApp */}
                             <a
-                                href="https://wa.me/9779804344434"
+                                  href="https://wa.me/9647824646174"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-14 h-14 bg-[#25D366]/10 border border-[#25D366]/20 rounded-xl flex items-center justify-center text-[#25D366] hover:bg-[#25D366] hover:text-white transition-all duration-300 hover:-translate-y-2 shadow-[0_0_15px_rgba(37,211,102,0.2)] hover:shadow-[0_0_25px_rgba(37,211,102,0.5)]"
@@ -73,7 +73,7 @@ export default function Footer() {
 
                             {/* Instagram */}
                             <a
-                                href="https://www.instagram.com/fusiones0?igsh=ZWZ5Y2plM2kzbG9q"
+                                href="https://www.instagram.com/xspaceagency"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-14 h-14 bg-[#E1306C]/10 border border-[#E1306C]/20 rounded-xl flex items-center justify-center text-[#E1306C] hover:bg-[#E1306C] hover:text-white transition-all duration-300 hover:-translate-y-2 shadow-[0_0_15px_rgba(225,48,108,0.2)] hover:shadow-[0_0_25px_rgba(225,48,108,0.5)]"
@@ -86,7 +86,7 @@ export default function Footer() {
 
                             {/* Email / Gmail */}
                             <a
-                                href="mailto:fusion1nepal@gmail.com"
+                                href="mailto:xspaceagency@gmail.com"
                                 className="w-14 h-14 bg-[#EA4335]/10 border border-[#EA4335]/20 rounded-xl flex items-center justify-center text-[#EA4335] hover:bg-[#EA4335] hover:text-white transition-all duration-300 hover:-translate-y-2 shadow-[0_0_15px_rgba(234,67,53,0.2)] hover:shadow-[0_0_25px_rgba(234,67,53,0.5)]"
                                 title="Email Us"
                             >
@@ -97,8 +97,8 @@ export default function Footer() {
                         </div>
                         <div className="mt-6 text-right">
                             <p className="text-xs text-gray-500 mb-1">Business Inquiries</p>
-                            <a href="mailto:fusion1nepal@gmail.com" className="text-lg font-black text-white hover:text-yellow-400 transition-colors tracking-wide">
-                                fusion1nepal@gmail.com
+                            <a href="mailto:xspaceagency@gmail.com" className="text-lg font-black text-white hover:text-cyan-400 transition-colors tracking-wide">
+                                xspaceagency@gmail.com
                             </a>
                         </div>
                     </div>
@@ -106,9 +106,9 @@ export default function Footer() {
 
                 <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-xs text-gray-500 text-center md:text-left">
-                        &copy; {new Date().getFullYear()} Fusion Esports. All rights reserved.
+                        &copy; {new Date().getFullYear()} XSPACE AGENCY. All rights reserved.
                         <span className="hidden md:inline mx-2 text-white/10">|</span>
-                        <span className="block md:inline mt-1 md:mt-0">Built for Dominance.</span>
+                        <span className="block md:inline mt-1 md:mt-0">Built for Excellence.</span>
                     </p>
 
                     <button

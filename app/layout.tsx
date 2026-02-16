@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fusion Esports",
+  title: "XSPACE AGENCY",
   description: "Your strategic partner for event management, live broadcasting, and professional media production.",
   icons: {
     icon: "/favicon.ico",
